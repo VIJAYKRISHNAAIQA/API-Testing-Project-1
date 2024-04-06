@@ -1,0 +1,63 @@
+ # API Manual Testing
+
+# Test Plan - Template:
+
+This section would typically outline the overall strategy for testing the API. It might include details on the scope of testing, the tools and resources required, and the pass/fail criteria for each test case.
+
+Real-time Example: Let's say you're testing an API for a food delivery app. 
+
+Your test plan template might specify that you'll focus on functional testing of core functionalities like placing orders, tracking deliveries, and handling user accounts. 
+
+You would outline the tools you'll use (e.g., Postman), the different types of data you'll test with (e.g., valid and invalid addresses, different order types), and
+
+how you'll determine if a test case passes or fails (e.g., a successful order placement results in a confirmation code).
+
+# Test Cases - Template: This section would detail specific test cases to be executed. Each test case would likely include a description of the functionality being tested, the steps to be performed, the expected results, and the actual results.
+
+Real-time Example: Building on the food delivery app example, you might have a test case specifically designed to verify the "Place Order" functionality. 
+
+The test case would describe the steps involved in placing an order (e.g., user logs in, selects restaurant, adds items to cart, enters delivery address, submits payment). 
+
+The expected result would be a successful order placement with a confirmation code. 
+
+You would then execute the steps manually using Postman or a similar tool, and record the actual results (e.g., success or failure message, confirmation code if successful).
+
+# Bugs
+
+We add to JIRA (Bug Template): JIRA is a popular project management and bug tracking tool. This section suggests that any bugs or issues encountered during testing would be documented and tracked in JIRA using a specific bug template.
+
+Real-time Example: While testing the food delivery app API, you might encounter a bug where the order confirmation email doesn't get sent after a successful order placement. You would then create a bug report in JIRA using the bug template, specifying the API endpoint, the steps to reproduce the bug, and the observed behavior.
+
+Scrum Explained (1 Week Project)
+
+This section likely refers to a brief overview of the Scrum project management methodology, potentially noting that this API testing project is estimated to take one week. 
+
+Scrum is an iterative and incremental Agile framework commonly used in software development projects.
+
+Test All CRUD Operations of Restful Booker
+
+This section suggests that the API being tested follows the REST architectural style and supports CRUD operations (Create, Read, Update, Delete) on resources managed by "Restful Booker," which could be the name of the API or the application it serves.
+
+Real-time Example: Continuing with the food delivery app example, if the API allows restaurants to CRUD (Create, Read, Update, Delete) menu items, 
+
+you would design test cases to cover each of these operations. 
+
+For instance, a CRUD test case for "Create menu item" might involve sending a request to create a new item with a specific name, description, and price, and verifying that the item is successfully created in the system.
+
+# Use Cases
+
+The image lists use cases that this template could be applied to, including:
+
+# Postman - Import: This refers to importing a Postman collection, which is a reusable set of API requests, into Postman for testing purposes.
+
+# Write Basics Testcase: This involves creating basic test cases to validate the API's functionality.
+
+# Run Collections with Newman: Newman is a command-line tool specifically designed to execute Postman collections. 
+
+This use case suggests that the template could be used in conjunction with Newman for automated testing.
+
+# In summary, the image provides a template for planning and documenting manual API testing projects. 
+
+It highlights essential steps like creating a test plan, defining test cases, tracking bugs, and potentially using tools like Postman and Newman for test execution. 
+
+By incorporating real-time examples and data specific to your API under test, you can effectively utilize this template to ensure thorough and comprehensive testing.
